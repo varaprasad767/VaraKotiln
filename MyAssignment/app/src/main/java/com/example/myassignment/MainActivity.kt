@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
             list.add(MyData(name))
 
         }
-        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.layoutManager =LinearLayoutManager(this)
         recyclerView.adapter = MyAdapter(this, list)
 
 
